@@ -1,0 +1,20 @@
+\documentclass[]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage[backend=biber, style=apa]{biblatex}
+\usepackage{csquotes}
+ 
+\addbibresource{"uwam.bib"}
+ 
+\author{Chen, Henry 22703907}
+\title{Lithium Ion Battery Management by Texas Instruments}
+ 
+\begin{document}
+\maketitle
+
+\chapter{Introducing the Li-Ion Battery}
+Li-Ion batteries are dense power storage solutions that require precision electronics for monitoring for proper function. Li-Ion batteries also retain charge much better when compared to its Lead-Acid counterparts. Battery management is critical in the use of a Li-Ion as they are a highly volatile energy storage solution. In general, this involves (1) Precise Charge Flow Control, (2) Preventing Abuse Conditions, (3) Parameter Monitoring and (4) Charging telemetry. It is also critical to monitor each individual cell of any cell configuration and implementing redundancies in the battery pack safety system.
+
+\section{Li-Ion Discharge}
+Typically, Li-Ion cells have a maximum cell voltage of 4.2 V however, this voltage slowly drops until the cell reaches 3.0 V. Typically, the cell's impedance can be approximated by $R=\Delta V/\Delta I$
+\end{document}
